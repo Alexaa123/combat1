@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 14px/1.5 #eee;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.button {
+    background: yellow;
+    color: white;
+    font-size: 24px;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 20px 40px;
+
+}
+.layout {
+    width: 900px;    
+    margin:0 auto ;
+}
